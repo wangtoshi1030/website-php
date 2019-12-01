@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    font-size: 35px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100px;
+    color: white;
+}
+
+
+.right-side{
+    display: flex;
+}
+
+.margin{
+    margin-right: 30px;
+}
+
+
+.pic img{
+    width: 100%;
+}
+
+
+.photo1{
+    background-image: url(shop-front.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.photo2{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+.photo3{
+    background-image: url(N3147761.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.photo4{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+.photo5{
+    background-image: url(436596bf615d2d4c1aff837c9e69785f-1-670x443.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.photo6{
+    background-color: black;
+    height: 0.000001vh;
+}
+.photo7{
+    background-image: url(pannda.jpeg); height: 100vh;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+.photo8{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+
+
+.photo9{
+    background-image: url(cafe+inside.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.photo10{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+.photo11{
+    background-image: url(Pratt_Bellden_Cafe_22.0.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.photo12{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+.photo13{
+    background-image: url(Djblf47U0AAiOmj.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.photo14{
+    background-color: black;
+    height: 0.000001vh;
+}
+
+
+
+.last{
+    background-color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.fas{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 60px;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+
+/* contact.php */
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline{
+    font-size: 50px;
+}
+
+.display{
+    margin: 50px;
+    display: flex;
+}
+
+.size{
+    font-size: 25px;
+    width: 100px;
+}
+
+.width{
+    width: 100%;
+    font-size: 25px;
+
+}
+
+.submit{
+    width: 500px;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+/* check.php */
+.container3{
+    text-align: center;
+    font-size: 80px;
+}
+
+.information{
+    margin: 30px;
+    font-size: 50px;
+}
+
+
+/* thanks.php */
+.container5{
+    text-align: center;
+}
+
+.huge{
+    font-size: 80px;
+}
+
+.big{
+    font-size: 50px;
+    padding: 30px;
+}
+
+
+/* reservation.php */
+
