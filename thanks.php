@@ -1,9 +1,14 @@
 <?php
 
+
+require_once('dbconect.php');
+require_once('function.php');
+
 $name =$_POST['name'];
 $mail=$_POST['email'];
 $message =$_POST['textarea'];
-
+$stmt = $dbh->prepare('INSERT INTO surveys (name, email, message) VALUES (?, ?, ?)');
+$stmt->execute([$name, $mail, $message]);//?を変数に置き換えてSQLを実行
 
 
 

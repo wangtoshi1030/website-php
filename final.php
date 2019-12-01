@@ -1,5 +1,10 @@
 <?php
 
+$stmt = $dbh->prepare('INSERT INTO surveys (name10, email10, "date") VALUES (?, ?, ?)');
+$stmt->execute([$name_r, $email_r, $date_r]);//?を変数に置き換えてSQLを実行
+
+
+
 $name_r=$_POST["name10"];
 $email_r=$_POST["email10"];
 $date_r=$_POST["date"];

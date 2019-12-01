@@ -1,5 +1,5 @@
 <?php
-
+require_once('function.php');
 
 
 $name =$_POST['name'];

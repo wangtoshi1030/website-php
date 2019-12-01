@@ -19,7 +19,6 @@
             <h1>Toshiki's Cafe</h1>
             <div class="right-side">
                 <p class="margin"><a href="contact.php">お問い合わせ</a></p>
-                <p><a href="reservation.php">予約画面</a></p>
             </div>
         </header>
         <div class="photo1">
